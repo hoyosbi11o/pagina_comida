@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000000;
+}
+main{
+    width: 1000px;
+    margin: 20px auto;
+}
+nav ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+nav ul li:hover{
+    background-color: #DC2F2F;
+    color: rgb(0, 0, 0);
+
+}
+nav ul li{
+    display: inline;
+    padding: 20px;
+    margin: 2px 10px 2px  10px;
+    float:left;
+    border-radius: 20px;
+}
+nav{
+    background-color: #ffffff;
+    border-bottom: #DC2F2F solid 5px;
+    height: 71px;
+    border-radius: 10px;
+}
+header {
+    background-image: url(../source/principal.jpg);
+    opacity: 0.9;
+    border-bottom: #DC2F2F solid 5px;
+    height: 310px;
+    border-radius: 10px;
+}
+.header2{
+    background-image: url(../source/pollo.jpg) ;
+    opacity: 0.9;
+    border-bottom: #DC2F2F solid 5px;
+    width: 1000px;
+    height: 310px;
+    border-radius: 10px;
+}
+
+nav h1{margin-right: 60px;
+    padding: 18px;
+    float: right;
+    color: #000000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ h3{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 18px;
+    border-radius: 10px;
+    border-bottom: #DC2F2F solid 5px;
+}
+
+  p{
+    float: left;
+    text-align: justify;
+    width: 500px;
+    margin-left: 10px ;
+    margin-top: 100px;
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+p:hover{
+    background-color: #ffffff;
+    color: black;
+    border-radius: 10px;
+    border-bottom: #DC2F2F solid 5px;
+}
+
+  img{
+    float: right;
+    width: 40%;
+    height: 20%;
+    margin-left: 10px ;
+    margin-top: 20px;
+    border-radius: 10px;
+}
